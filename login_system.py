@@ -6,10 +6,6 @@
 # Creating a basic login system which will ask for username and password and will match it up with the one's existing in the database.
 # 
 # STEP-1
-
-# In[4]:
-
-
 import getpass
 # Setting a default username and password
 username="admin"
@@ -29,4 +25,3 @@ if u==username:
     
 else:
     print('Invalid Username')
-
